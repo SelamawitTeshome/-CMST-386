@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preprocessing</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="project3.html">Project 3</a></li>
+      </ul>
+      <div class="breadcrumbs">
+        <a href="index.html">Home</a>
+        <span> / </span>
+        <a href="project3.html">Project 3</a>
+        <span> / </span>
+        <a href=preprocessing.html>Learn Preprocessing</a>
+      </div>
+       <button class="cta-button">Learn Preprocessing</button>
+    </nav>
+  </header>
+
+  <main>
+    <div id="top"></div>
+    
+    <h1>Ways to Implement Preprocessing</h1>
+    <p>Preprocessing in web development involves using tools or languages that extend the capabilities of standard CSS, such as Sass, Less, or Stylus. There are two ways to implement preprocessing: client-side and server-side.</p>
+    </main>
+    <ul>
+      <li><h4>Client-side Preprocessing:</h4> In this approach, the preprocessing is done on the client side, typically using JavaScript libraries or frameworks. The preprocessor code runs in the browser and generates the CSS code dynamically before rendering the webpage. This allows for greater flexibility and customization on the client side but may result in increased load times as the preprocessing is done during runtime.</li>
+    
+      <li><h4>Server-side Preprocessing:</h4> In this approach, the preprocessing is done on the server side before the HTML is sent to the client's browser. The server processes the preprocessor code and generates the CSS code, which is then sent to the client's browser as standard CSS. This approach can result in faster load times as the processing is done on the server side but may offer limited flexibility compared to client-side preprocessing.</li>
+    </ul>
+    
+    <p>Both client-side and server-side preprocessing have their pros and cons, and the choice depends on the specific requirements of the project, the development workflow, and the team's preferences. Client-side preprocessing offers more flexibility and control on the client side but may impact load times, while server-side preprocessing may offer faster load times but may have limitations in terms of customization on the client side.</p>
+    
+    <h1>Mechanisms used in LESS and SASS</h1>
+    
+    <p>Both LESS and SASS are popular CSS preprocessor languages that provide additional functionalities to enhance the development experience. Here's a brief explanation of some of the key mechanisms used in LESS and SASS:</p>
+    
+    <ul>
+      <li><h4>Mixins:</h4> Mixins allow developers to define reusable blocks of code that can be included in multiple CSS rules. Mixins can take parameters and be invoked with different values, making them versatile for creating styles that need to be reused across the project.</li>
+    
+      <li><h4>Variables:</h4> Variables enable developers to define and use reusable values in their stylesheets. This can include colors, font sizes, margins, and other commonly used values. Variables make it easy to maintain consistent styles throughout the project by allowing changes to be made in one place, which is reflected across all the styles that use the variable.</li>
+      
+      <li><h4>Functions:</h4> Functions in LESS and SASS allow developers to perform calculations and manipulate values in their </ul>
+
+        <!-- How I implemented LESS: I used a macOS software called CodeKit to compile my .less files into .css files. 
+          This application allows me to set up my project in such a way   where I can have a source folder, which includes all 
+          my source files such as .less files, and it automatically creates a build folder containing all the compiled files 
+          such as the .css files, every time I make a change to the source files and save it. 
+          I took advantage of LESS variables for setting up the colors. I also used mixins for creating the bottom borders. -->
+
+    <a href="#top">Back to top</a>
+
+</body>
