@@ -124,6 +124,9 @@ label {
 /*background*/
 body {
   background-color: rgb(212, 237, 249);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  padding: 0 5% 0 5%;
 }
 
 form {
@@ -175,7 +178,7 @@ button[type=submit]:hover {
   font-size: 1.1rem;
   margin: 0;
   padding: 10px;
-  background-color: #99d6e6;
+  background-color: #0ebce9;
   border-radius: 5px;
 }
 
@@ -183,13 +186,14 @@ button[type=submit]:hover {
   text-decoration: none;
   color: #1a1c1d;
   padding: 5px 10px;
-  border: 1px solid #8ec7eb;
+  /* border: 1px solid #8ec7eb; */
   border-radius: 5px;
 }
 
 .breadcrumbs a:hover {
   background-color: #abcfe8;
-  color: #698a96;
+  color: #000;
+  font-weight: 600;
 }
 
 .breadcrumbs a:not(:last-child) {
