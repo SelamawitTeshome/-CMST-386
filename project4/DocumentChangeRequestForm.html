@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <a href="index.html">
+      <img src="C:\Users\Selamawit\..1.School\cmst386\project4\image\CR_logo.png" alt="Company Logo">
+      </a>
+
+<title>Document Change Request Form</title>    
+<link rel="stylesheet" href="./styles/styles.css">
+<script src="C:\Users\Selamawit\..1.School\cmst386\project4\javascript\script.js"></script>
+
+</head>
+<body>
+    <nav>    
+        <div class="breadcrumbs">
+          <a href="index.html">Home</a>
+          <a href="ApplicationMasterLog.html">Application Change Request Master Log</a>  
+          <a href="ApplicationMasteraLogDashboard.html">Application Change Request Dashboard</a>
+          <a href="DocumentMasterLog.html">Document Change Request Master Log</a>
+          <a href="DocumentMasteraLogDashboard.html">Document Change Request Dashboard</a>
+          <a href="Newsletter.html">Newsletter</a><span>
+      </div>
+       <h2>Document Change Request Form</h2>
+      <div class="container">
+       
+        <form>
+          <div class="form-group">
+            <label for="requester_name">Requester Name:</label>
+            <input type="text" class="form-control" id="requester_name" required>
+          </div>
+          <div class="form-group">
+            <label for="requester_email">Requester Email:</label>
+            <input type="email" class="form-control" id="requester_email" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+          </div>
+          <div class="form-group">
+            <label for="document_name">Document Name:</label>
+            <input type="text" class="form-control" id="document_name" required>
+          </div>
+          <div class="form-group">
+            <label for="change_type">Change Type:</label>
+            <select class="form-control" id="change_type" required>
+              <option value="">Select change type</option>
+              <option value="update_content">Update Content</option>
+              <option value="add_section">Add Section</option>
+              <option value="delete_section">Delete Section</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="change_description">Change Description:</label>
+            <textarea class="form-control" id="change_description" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <footer>
+        <p>&copy; Copyright © 2023 MyWebsite. All rights reserved.</p>
+        <a href="PolicyPublished.html">Privacy Policy</a> 
+        <div id="date-time"></div>
+      </footer>      
+      
+</body>
+</html>
