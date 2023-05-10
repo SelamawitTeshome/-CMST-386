@@ -121,13 +121,24 @@ label {
   justify-content: left;
 }
 
-/*background*/
+/*background body {
+  
+ 
+}*/
+
+
 body {
   background-color: rgb(212, 237, 249);
+ /*background-image: url('..image/hero_image.jpeg');*/
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
   padding: 0 5% 0 5%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
 }
+
 
 form {
   max-width: 600px;
